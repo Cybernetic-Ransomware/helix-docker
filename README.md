@@ -38,7 +38,7 @@ https://github.com/p4paul/helix-docker/tree/master
     Connect via P4Admin using `1667` as a server and `super` as an user. 
 
 ### Security level is set to the lowest by default
-It is recommended to improve security by following the [instruction](https://help.perforce.com/helix-core/quickstart/current/Content/quickstart/admin-configure-security.html)
+It is recommended to improve security by replacing the default superuser and following other advice from the [instruction](https://help.perforce.com/helix-core/quickstart/current/Content/quickstart/admin-configure-security.html)
 
 
 ## Builded Image
