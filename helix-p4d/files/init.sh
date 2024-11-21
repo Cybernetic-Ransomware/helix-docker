@@ -22,3 +22,6 @@ echo "Perforce Server [RUNNING]"
 
 ## Remove all triggers
 echo "Triggers:" | p4 triggers -i
+
+## Set server id
+p4 serverid ue-pn
