@@ -24,4 +24,9 @@ echo "Perforce Server [RUNNING]"
 echo "Triggers:" | p4 triggers -i
 
 ## Set server id
-p4 serverid ue-pn
+if [ ! -f $P4ROOT/server.id ]; then
+    echo "Setting server ID..."
+    p4 serverid ue-pn
+else
+    echo "Server ID already set."
+fi
