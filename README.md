@@ -44,6 +44,10 @@ It is recommended to improve security by replacing the default superuser and fol
 ## Builded Image
 [DockerHub](https://hub.docker.com/repository/docker/cyberneticransomware/helix-core-local/general)
 
+```powershell
+docker buildx build --attest type=provenance --attest type=sbom --push -t cyberneticransomware/helix-core-local:{new_tag} .
+```
+
 
 ## Useful Links and Documentation
 
